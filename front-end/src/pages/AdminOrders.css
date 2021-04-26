@@ -1,0 +1,16 @@
+.card-order {
+  align-items: center;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  width: 200px;
+}
+
+.content-order {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  justify-items: center;
+  padding: 20px;
+  width: 80%;
+}

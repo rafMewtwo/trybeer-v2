@@ -1,0 +1,33 @@
+.content {
+  border-style: double;
+  display: grid;
+  gap: 20px;
+  grid-template-areas: 'top top top' , 'middle middle middle' , 'bottom bottom bottom';
+  padding: 20px;
+  width: 80%;
+}
+
+.top-card {
+  display: flex;
+  font-size: 1.5em;
+  font-weight: 700;
+  grid-area: top;
+  justify-content: space-around;
+}
+
+.bottom-card {
+  display: flex;
+  font-size: 1.5em;
+  font-weight: 700;
+  grid-area: bottom;
+  justify-content: flex-end;
+}
+
+.middle-card li {
+  display: flex;
+  font-size: 1.2em;
+  grid-area: middle;
+  justify-content: space-between;
+  list-style: none;
+  padding: 10px;
+}

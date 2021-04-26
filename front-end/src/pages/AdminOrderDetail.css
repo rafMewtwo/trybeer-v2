@@ -1,0 +1,30 @@
+.bottom-card {
+  display: flex;
+  font-size: 1.5em;
+  font-weight: 700;
+  grid-area: bottom;
+  justify-content: flex-end;
+  margin: 15px 0;
+}
+
+.card {
+  background-color: #f1f1f1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+}
+
+.card h2 {
+  display: inline;
+  margin-left: 10px;
+  width: 20%;
+}
+
+.card:hover {
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+li {
+  list-style-type: none;
+  padding: 10px 0;
+}
